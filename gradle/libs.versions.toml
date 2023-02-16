@@ -1,0 +1,43 @@
+[versions]
+compileSdk = "33"
+minSdk = "24"
+targetSdk = "33"
+versionCode = "1"
+versionName = "1.0.0"
+
+androidGradle = "7.3.1"
+kotlin = "1.7.10"
+googleServices = "4.3.10"
+
+androidx-appcompat = "1.5.1"
+androidx-activity = "1.6.1"
+androidx-fragment = "1.5.5"
+androidx-recyclerview = "1.2.1"
+androidx-swiperefreshlayout = "1.1.0"
+androidx-core = "1.9.0"
+
+google-android-material = "1.7.0"
+
+markdown = "1.0.5"
+disklrucache = "2.0.2"
+
+[plugins]
+android-application = { id = "com.android.application" }
+android-library = { id = "com.android.library" }
+kotlin-android = { id = "org.jetbrains.kotlin.android" }
+
+[libraries]
+android-gradle = { module = "com.android.tools.build:gradle", version.ref = "androidGradle" }
+google-gradle = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+kotlin-gradle = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx.core" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx.appcompat" }
+androidx-activity = { module = "androidx.activity:activity-ktx", version.ref = "androidx.activity" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx.fragment" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "androidx.recyclerview" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "androidx.swiperefreshlayout" }
+
+google-android-material = { module = "com.google.android.material:material", version.ref = "google.android.material" }
+markdown = { module = "com.zzhoujay.markdown:markdown", version.ref = "markdown" }
+disklrucache = { module = "com.jakewharton:disklrucache", version.ref = "disklrucache" }
